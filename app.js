@@ -6,6 +6,6 @@
 // console.log(ext);
 const {readFileSync,writeFileSync} = require('fs')
 const firstFile = readFileSync("folder/anotherfolder/text.txt",'utf-8')
-writeFileSync(`folder/second.txt`,"Written this right here","utf-8")
+writeFileSync(`folder/second.txt`,"Writte n this something right here","utf-8")
 console.log( readFileSync('folder/second.txt','utf-8') );
 console.log(firstFile);
